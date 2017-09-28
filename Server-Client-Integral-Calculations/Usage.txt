@@ -1,0 +1,32 @@
+/*##############################################################*/
+/*SYSTEM PROGRAMMING MIDTERM					*/
+/*Written by Yasin Tulumen_121044020 			*/
+/*Last update on APRIL 22, 2016					*/
+/*##############################################################*/
+
+
+PROGRAM NASIL CALISIR?
+
+1- usage.png deki gibi konsol ekranlarindan program calistirilir.
+2- Eger parametrelerde hata var ise uyari vererek programdan cikis yapar.
+3- Yanlizca carpma islemi yapilmak istenirse '*' seklinde degil
+	'\*' seklinde islemin girilmesi gereklidir.
+3- Client in verdigi operasyon parametresine gore ve yine parametre olarak
+	verdigi iki fonksiyona gore integral alma islemi uygulanacak.
+4- Ayni anda birden fazla Client calistirilabilir.
+5- Server(IntegralGen) Client'tan parametreler gelene kadar bekler.
+6- Parametreleri aldıktan sonra Client'in baglandigi saate gore hesaplanan
+	milisaniye degeri integralin alt limit olarak belirlenecek ve
+	CTRL+C yakalanana kadar sürekli olarak bu deger update edilerek
+	Client'e gonderilecek.Aynı anda Client'in pid'si isminde bir dosyaya
+	sonuclar yazilacak.
+7- Server'in calismasi CTRL+C ile durduruldugunda calismakta olan clientler sonlanir
+	ve bu durum log dosyasina yazilir.
+8- Client'in calismasi CTRL+C ile durduruldugunda sinyali gonderen Client sonlandirilir
+	ve bu durum log dosyasina yazilir.
+9- Eger 0 ile bolme islemi yapilmaya calisilirsa bu durum Server'da farkedilir ve
+	program sonlandirilir
+
+
+
+
